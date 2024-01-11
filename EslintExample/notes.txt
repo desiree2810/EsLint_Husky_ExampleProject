@@ -1,0 +1,5 @@
+npm i eslint --save-dev
+npm init @eslint/config
+npx eslint src/user
+npx eslint src/user/user.controller.ts
+npx eslint src/user/user.controller.ts --fix
